@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "main",
+  "version": "1.0.0",
+  "description": "node.js",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "nodemon --inspect src/main.js",
+    "watch": "node-sass --watch src/resources/scss/style.scss src/static/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namPain/server.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "namDepTrai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namPain/server/issues"
+  },
+  "homepage": "https://github.com/namPain/server#readme",
+  "dependencies": {
+    "crypto-random-string": "^5.0.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "knex": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
